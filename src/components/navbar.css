@@ -11,7 +11,8 @@ body {
     font-family: 'Share Tech', sans-serif;
 }
 .btn-nav:hover{
-    color:#47ff91;
+    /* color:#47ff91; */
+    color:rgb(47, 151, 215)
 }
 
 /* PC */

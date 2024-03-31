@@ -42,13 +42,16 @@ body{
   /* overflow: hidden; */
 }
 .link-btn{
-  background-color: #00e18f !important;
+  background-color: rgb(47, 151, 215) !important;
 }
 .card__bg{
   filter:brightness(80%);
 }
-@media only screen and (max-width: 930px){ /*phone*/
+@media only screen and (max-width: 530px){ /*phone*/
   .pc-slider{
+    /* display: none; */
+  }
+  .phone-slider{
     display: none;
   }
 }
@@ -59,9 +62,13 @@ body{
     /* overflow: hidden; */
   }
 }
-@media only screen and (min-width: 930px){ /* PC view */
+@media only screen and (min-width: 530px){ /* PC view */
   .phone-slider{
     display: none;
+  }
+  .pc-slider{
+    width: 90%;
+    margin: 0 auto;
   }
 }
 

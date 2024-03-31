@@ -76,7 +76,7 @@ body {
   font-size: 50px;
   font-style: normal;
   /* text-shadow: 2px 2px #eef2f3; */
-  color:rgb(0, 225, 143);
+  color:rgb(171, 220, 253)
 
   }
    .event-pic{
@@ -86,7 +86,7 @@ body {
    @media (max-width:1180px) and (min-width:991px)
    {
     .event-pic{
-      width:100%;
+      width:80%;
     }
    }
   

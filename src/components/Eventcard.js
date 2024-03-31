@@ -21,8 +21,8 @@ export default function Eventcard(props) {
             </p>
           </div>
           <button className="card__button"><Link className='nav-link active' /* target='_blank' rel="noopener noreferrer" */ to={`/event${props.eve}`}>Read more</Link></button>
-      </div>
-    </article >
+        </div>
+      </article >
     </>
   );
 }

@@ -25,7 +25,7 @@ export default function About() {
       <Eventimgs/>
       <p className='descr' style={{ color: "rgb(0, 225, 143)" , marginInline:"50px" }}>Ennexus goes beyond borders with online events connecting tech enthusiasts globally. Dive into virtual hackathons, attend career guidance sessions led by industry veterans, and explore the future of technology from the comfort of your home. Don't miss out on this opportunity to expand your horizons and shape your tech career!</p>
       <div className="my-5" style={{width:"100%" , display:"flex" , justifyContent:"center"}}>
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/Ez0VpqBuwvY" title="Connoisseur&#39;22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/dIR6lEhHr6M" title="Ennexus 2024 Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
   </>
   );

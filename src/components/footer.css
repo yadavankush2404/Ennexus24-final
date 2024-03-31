@@ -49,7 +49,7 @@ width:30px;
 }
 
 .foot .social a:hover {
-    background: #00e18f;
+    background: rgb(47, 151, 215);
     color:  #222636;
     cursor: pointer
 }
@@ -59,13 +59,13 @@ width:30px;
 }
 
 .foot .heading {
-    color: #00e18f;
+    color: rgb(47, 151, 215);
     font-weight:600;
 }
 
 .foot .divider {
     border-top: 2px solid;
-    color: #00e18f;
+    color: rgb(47, 151, 215);
 }
 
 .footcomp{

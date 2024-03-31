@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Eventcard from './Eventcard';
 import Slider from "react-slick";
@@ -13,13 +13,35 @@ import img_6 from './assets/images/Algo.jpeg'
 import Eventimgs from './Eventimgs';
 
 export default function Event() {
-    const settings1 = {
+    const [settings1,setSettings] = useState({
         dots: true,
         infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1
-    };
+    })
+    useEffect(()=>{
+        const isSmallScreen = window.matchMedia("(max-width: 800px)").matches;
+        const isSmallScreen2 = window.matchMedia("(max-width: 400px)").matches;
+        if(isSmallScreen){
+            setSettings({
+                dots: true,
+                infinite: false,
+                speed: 500,
+                slidesToShow: 2,
+                slidesToScroll: 1
+            });
+        }
+        if(isSmallScreen2){
+            setSettings({
+                dots: true,
+                infinite: false,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        }
+    },[])
     return (
         <>
             <div style={{ marginBottom: "10rem" }} id="eventsmain"></div>
@@ -50,7 +72,7 @@ export default function Event() {
             <div id="carouselExampleFade" className="carousel slide carousel-fade phone-slider">
                 <div className="carousel-inner mx-auto">
                     <div className="carousel-item active">
-                        <img src={img_1} className="d-block w-100" alt="..." />
+                        <img src={img_2} className="d-block w-100" alt="..." />
                         <div className="carousel-caption">
                             <h5>Codigo</h5>
 

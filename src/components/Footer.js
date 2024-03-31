@@ -15,8 +15,8 @@ export default function Footer() {
                         <div className="col-md-4 col-sm-4 col-xs-4 cont mb-3">
                             <div className="footer-text ">
                                 <div className="d-flex">
-                                    <h1 className="font-weight-bold mr-2 px-3 fonT" style={{ color: "white", backgroundColor: "#00e18f" , fontWeight:"600" }}> CES</h1>
-                                    <h1 className="fonT" style={{ color: "#00e18f",fontWeight:"600" }}>MMMUT</h1>
+                                    <h1 className="font-weight-bold mr-2 px-3 fonT" style={{ color: "white", backgroundColor: "rgb(47, 151, 215)" , fontWeight:"600" }}> CES</h1>
+                                    <h1 className="fonT" style={{ color: "rgb(47, 151, 215)",fontWeight:"600" }}>MMMUT</h1>
                                 </div>
                                 <p className="card-text" style={{ color: "white" }}>The Computer Engineering Society has been functioning since 1993 with the collective efforts of a group of B.Tech. students who had a strong urge to complement the theoretical and practical knowledge imparted in the classroom and laboratory, with emphasis on development of overall personality of budding engineering graduates.</p>
                             </div>
