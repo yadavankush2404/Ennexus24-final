@@ -49,7 +49,7 @@ export default function Footer() {
                     <div className="row" style={{ fontSize: "10px" }}>
                         <div className="col-md-6 col-sm-6 col-xs-6">
                             <div className="pull-left">
-                                <p style={{ color: "white" }}><i className="fa fa-copyright" ></i> Copyright CES-2k23. All Rights Reserved</p>
+                                <p style={{ color: "white" }}><i className="fa fa-copyright" ></i> Copyright CES-2k24. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
