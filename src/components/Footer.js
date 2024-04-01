@@ -39,8 +39,8 @@ export default function Footer() {
                             <ul className="card-text" style={{ color: "white" }}>
                                 <li><div className="spon mt-2 mb-3" style={{display:"flex" , flexDirection:"column"}}>
                                     <a><img src={sp} alt="fb"/></a>
-                                    // <a><img src={sp2} alt="fb"/></a>
-                                    // <a><img src={sp3} alt="fb"/></a></div></li>
+                                    
+                                   </div></li>
                             </ul>
                         </div>
                         </div>
