@@ -63,7 +63,7 @@ export default function Event() {
                 <Slider {...settings1}>
                     <Eventcard name='Codigo' d="Thrilling coding competition with thought-provoking questions to test your coding skills." imglink={img_1} link='https://getbootstrap.com/' eve={1} />
                     <Eventcard name='Debugger King' d="Prove debugging expertise in challenging scenarios. Compete to solve complex programming issues." imglink={img_2} link='https://getbootstrap.com/' eve={2} />
-                    <Eventcard name='Carpe Diem' d="Duo event solving puzzles & problems with two-person teams working together." imglink={img_3} link='https://getbootstrap.com/' eve={3} />
+                    <Eventcard name='Flip FLop' d="Duo event solving puzzles & problems with two-person teams working together." imglink={img_3} link='https://getbootstrap.com/' eve={3} />
                     <Eventcard name='Wield The Web' d="Submit web dev projects to display creativity & process in exciting event." imglink={img_4} link='https://getbootstrap.com/' eve={4} />
                     <Eventcard name='CTF' d="Brightest in cybersecurity will come together to showcase their skills, creativity, and strategic thinking." imglink={img_5} link='https://getbootstrap.com/' eve={5} />
                     <Eventcard name='Algo Hunt' d="From unraveling intricate algorithms to applying problem-solving techniques, Algo Hunt promises an intellectually stimulating experience. " imglink={img_6} link='https://getbootstrap.com/' eve={6} />
