@@ -21,7 +21,7 @@
 .arrow {
   position: absolute;
   left: 1rem;
-  border: solid rgb(47, 151, 215);
+  border: solid rgb(0, 225, 143);
   opacity: .5;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -36,13 +36,13 @@
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
-  color: rgb(47, 151, 215);
+  color: rgb(0, 225, 143);
 }
 
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  color: rgb(47, 151, 215);
+  color: rgb(0, 225, 143);
   
 }
 

@@ -13,7 +13,7 @@ export default function MyFaq({ question, answer }) {
       <div className="quest">
         <div className="ques"> <i onClick={change} className={text}></i>
           <div className="q"><h4>{question}</h4></div></div>
-        {show && <p style={{color:"rgb(47, 151, 215)"}}>{answer}</p>}
+        {show && <p style={{color:"rgb(0, 225, 143)"}}>{answer}</p>}
       </div>
     </>
   )

@@ -42,7 +42,7 @@ body{
   /* overflow: hidden; */
 }
 .link-btn{
-  background-color: rgb(47, 151, 215) !important;
+  background-color: rgb(0, 225, 143) !important;
 }
 .card__bg{
   filter:brightness(80%);

@@ -66,7 +66,7 @@ export default function Home() {
                 <img src={ship} id="ship" alt="img" />
                 {/* <img src={ship1} id="ship1" style={{ zIndex: '10001' }} alt="img" />
                 <img src={ship2} id="ship2" style={{ zIndex: '10001' }} alt="img" /> */}
-                <h1 className="ennexus">Ennexus'<span style={{color:"rgb(47, 151, 215)"}}>24</span></h1>
+                <h1 className="ennexus">Ennexus'<span style={{color:"rgb(0, 225, 143)"}}>24</span></h1>
             </section> 
             <div style={{ height: "00vh" }}></div>
         </>);
