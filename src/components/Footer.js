@@ -6,6 +6,7 @@ import linkedin from "./assets/images/lin.png";
 import sp1 from "./assets/images/sp1.png";
 import sp2 from "./assets/images/sp2.png";
 import sp3 from "./assets/images/sp3.png";
+import sp from "./assets/images/ELECTRO.png";
 export default function Footer() {
     return (
         <>
@@ -37,9 +38,9 @@ export default function Footer() {
                             <h5 className="heading">OUR SPONSORS</h5>
                             <ul className="card-text" style={{ color: "white" }}>
                                 <li><div className="spon mt-2 mb-3" style={{display:"flex" , flexDirection:"column"}}>
-                                    <a><img src={sp1} alt="fb"/></a>
-                                    <a><img src={sp2} alt="fb"/></a>
-                                    <a><img src={sp3} alt="fb"/></a></div></li>
+                                    <a><img src={sp} alt="fb"/></a>
+                                    // <a><img src={sp2} alt="fb"/></a>
+                                    // <a><img src={sp3} alt="fb"/></a></div></li>
                             </ul>
                         </div>
                         </div>
