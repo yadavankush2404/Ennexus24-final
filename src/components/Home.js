@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./home.css";
 import ship from "./assets/images/ship.png";
+import background from "./assets/images/background.jpg";
 import univ from "./assets/images/univ-s.jpg";
 gsap.registerPlugin(ScrollTrigger);
 
