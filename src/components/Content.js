@@ -17,7 +17,7 @@ export default function Content(props){
   
   <main>
     
-    <Link to={'/'} className='back-btn m-3'><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
+        {/* <Link to={'/'} className='back-btn m-3'><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>*/}
     <div className="container marketing">
       < Event_desc name={props.name} desc = {props.descc} src={props.imglink}/>
       {/* <hr className="featurette-divider" /> */}
@@ -40,23 +40,20 @@ export default function Content(props){
       
 
         {/* winner */}
-        <div className="row mx-auto">
+{/* <div className="row mx-auto">
         <h1 className='text-center my-5 win_text'>Winners 2K23</h1>
         <div className="col-lg-3 col-md-12 text-center winner text-center">
         <Card name={props.Name1} branch={props.branch1} position={props.pos1} src={props.photo1} />
         </div>
 
-        {/* /.col-lg-4 */}
         <div className="col-lg-3 col-md-6 text-center winner text-center">
         <Card name={props.Name2} branch={props.branch2} position={props.pos2} src={props.photo2} />
         </div>
 
-        {/* /.col-lg-4 */}
         <div className="col-lg-3 col-md-6 text-center winner text-center">
           <Card name={props.Name3} branch={props.branch3} position={props.pos3} src={props.photo3} />
         </div>
-        {/* /.col-lg-4 */}
-      </div>
+      </div>*/}
 
 
 
