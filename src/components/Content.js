@@ -23,6 +23,7 @@ export default function Content(props){
       {/* <hr className="featurette-divider" /> */}
 
       <div className="row text-center">
+          <h1 className='text-center' >Glimpes of the Event</h1>
         <div className="col-lg-3 col-md-6 col-sm-12 text-center gallery_pic">
         <Gallery src={props.ev1} />
         </div>
