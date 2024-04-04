@@ -6,7 +6,7 @@ function Eventimgs() {
   
     return (
       <>
-      <h1 className='text-center'>Glimpes of the Event</h1>
+      <h1 className='text-center'>Glimpses of the Event</h1>
     <div className='eve-imgs'>
       {arr.map((img_ele)=>{return <img src={img_ele}/>})}
     </div>
