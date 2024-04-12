@@ -41,7 +41,7 @@ export default function Content(props){
       
 
         {/* winner */}
-{/* <div className="row mx-auto">
+<div className="row mx-auto">
         <h1 className='text-center my-5 win_text'>Winners 2K23</h1>
         <div className="col-lg-3 col-md-12 text-center winner text-center">
         <Card name={props.Name1} branch={props.branch1} position={props.pos1} src={props.photo1} />
@@ -54,12 +54,9 @@ export default function Content(props){
         <div className="col-lg-3 col-md-6 text-center winner text-center">
           <Card name={props.Name3} branch={props.branch3} position={props.pos3} src={props.photo3} />
         </div>
-      </div>*/}
+      </div>
 
-
-
-        {/* extra */}
-        {/* <hr className="featurette-divider" /> */}
+        <hr className="featurette-divider" />
       </div>
     
   </main>
