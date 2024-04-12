@@ -51,6 +51,9 @@ import dk3 from './components/assets/images/dk3.jpg'
 import ff1 from './components/assets/images/ff1.jpg'
 import ff2 from './components/assets/images/ff2.jpg'
 import ff3 from './components/assets/images/ff3.jpg'
+import first from './components/assets/images/first.jpeg'
+import second from './components/assets/images/second.jpeg'
+import third from './components/assets/images/third.jpeg'
 
 import Content from "./components/Content";
 // import Event_desc from "./components/Event_desc";
@@ -80,7 +83,7 @@ function App() {
 
             <Route exact path={`/event5`} element={<Content imglink={img_5} ev1={img_e10} ev2={img_e17} ev3={img_e12} ev4={img_e9} name='C T F' descc='We were thrilled to announce our upcoming Capture the Flag (CTF) event, where the best and brightest in cybersecurity will come together to showcase their skills, creativity, and strategic thinking. Our event will bring together talented hackers from around the world to compete in a variety of challenges, including cryptography, reverse engineering, web exploitation, and more.' photo1={ctf1} Name1='Akarsh Goel' branch1='CSE' pos1="1st place" photo2={ctf2} Name2='Aarti Singh' branch2='CSE' pos2='1st runner up' photo3={ctf3} Name3='Aditi Gupta' branch3='CSE' pos3='2nd Runner up'/>} />
             
-            <Route exact path={'/event6'} element={<Content imglink={img_6} ev1={img_e2} ev2={img_e7} ev3={img_e9} ev4={img_e17} name='A l g o   H u n t' descc='Algo Hunt is an exhilarating event designed to challenge participants problem-solving skills and algorithmic prowess. Through a series of thought-provoking questions and stimulating challenges, participants are invited to showcase their ability to navigate complex problems with innovative solutions' photo1={ank} Name1='Team Bludgers' branch1='CSE' pos1="1st place" photo2={ank} Name2='Team White Flag' branch2='CSE' pos2='1st runner up' photo3={ank} Name3='Team Dot' branch3='CSE' pos3='2nd Runner up'/>} />
+            <Route exact path={'/event6'} element={<Content imglink={img_6} ev1={img_e2} ev2={img_e7} ev3={img_e9} ev4={img_e17} name='A l g o   H u n t' descc='Algo Hunt is an exhilarating event designed to challenge participants problem-solving skills and algorithmic prowess. Through a series of thought-provoking questions and stimulating challenges, participants are invited to showcase their ability to navigate complex problems with innovative solutions' photo1={first} Name1='Team Bludgers' branch1='CSE' pos1="1st place" photo2={second} Name2='Team White Flag' branch2='CSE' pos2='1st runner up' photo3={third} Name3='Team Dot' branch3='CSE' pos3='2nd Runner up'/>} />
           </Routes>
         <Faq />
       </div>
