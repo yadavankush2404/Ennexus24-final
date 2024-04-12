@@ -51,7 +51,7 @@ import dk3 from './components/assets/images/dk3.jpg'
 import ff1 from './components/assets/images/ff1.jpg'
 import ff2 from './components/assets/images/ff2.jpg'
 import ff3 from './components/assets/images/ff3.jpg'
-import first from './components/assets/images/first.jpeg'
+import first from './components/assets/images/first.jpg'
 import second from './components/assets/images/second.jpeg'
 import third from './components/assets/images/third.jpeg'
 
